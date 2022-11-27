@@ -65,11 +65,11 @@ function copyMvnCommand() {
     <div class="form-row">
         <div class="form-group">
             <label for="groupId">Group</label>
-            <input class="form-control" type="text" id="groupId" placeholder="com.example" onchange="generateMvnCommand()">
+            <input class="form-control" type="text" id="groupId" value="com.example" onchange="generateMvnCommand()">
         </div>
         <div class="form-group">
             <label for="artifactId">Artifact</label>
-            <input type="text" class="form-control" id="artifactId" placeholder="demo" onchange="generateMvnCommand()">
+            <input type="text" class="form-control" id="artifactId" value="demo" onchange="generateMvnCommand()">
         </div>
         <div class="form-group">
             <label for="projectVersion">Version</label>
